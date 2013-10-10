@@ -1,6 +1,7 @@
 @import url(reset.css);
 @import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
-
+@import url(http://fonts.googleapis.com/css?family=Ranchers);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700);
 
 body{
 	background-image: url(../img/19.jpg);
@@ -8,24 +9,48 @@ body{
 	background-size: 100%
 }
 
+
+
+td{
+	background-color: #A36FCB;
+}
+
 .content-box{
 	width: 60%;
+	min-width: 700px;
 	background-color: #fff;
 	margin: 0 auto;
+	margin-top: 35px; 
 	box-shadow: 4px 4px 12px #555;
+}
+
+.content-main{
+	min-width: 300px;
 }
 
 
 header{
 	background-color: #A36FCB;
-	margin-left: auto;
-	margin-right: auto;
-	columns: ;
 }
 
-.test{
+.head{
+	width: 100%;
+}
+
+td{
+	width: 33%;
+
+}
+.headleft{
 	float: left;
-	font-family: 'Gloria Hallelujah', cursive;
+	font-family: 'Ranchers', cursive;
+	font-size: 36px;
+	text-align:center;
+	vertical-align: center;
+}
+.headright{
+	float: right;
+	font-family: 'Ranchers', cursive;
 	font-size: 36px;
 	text-align:center;
 	vertical-align: center;
@@ -44,13 +69,41 @@ header{
 	margin-top: 5px;
 }
 
+.discreetlink{
+	color: #000;
+}
+
+.discreetlink:link, 
+.discreetlink:visited{
+	text-decoration: none;
+}
+
+.discreetlink2{
+	color: #5A2484;
+}
+
+.discreetlink2:link, 
+.discreetlink2:visited{
+	text-decoration: none;
+}
 .name{
 	font-family: 'Gloria Hallelujah', cursive;
 	text-align: center;
 	font-size: 48px;
 }
+.motto{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
 
-
+.pull-right{
+	float:right;
+	margin: 10px;
+	padding: 10px;
+	width: 40%;
+}
 
 p{
 	margin: 10px;
@@ -60,7 +113,9 @@ p{
 
 nav ul{
 	background-color: #2B0349;
-	margin: 10px;
+	margin-top: 10px;
+	text-align: center;
+
 }
 nav li{
 	display: inline-block;
@@ -71,6 +126,8 @@ nav a{
 	padding: 10px;
 	color: #FFF;
 	font-weight: bold;
+	font-size: 24px;
+	font-family: 'Gloria Hallelujah', cursive;
 }
 
 nav a:link, 
@@ -79,9 +136,75 @@ nav a:visited{
 }
 
 nav a:hover{
-	background-color: #FF9D45;
+	background-color: #A36FCB;
 }
 
 footer{
 	clear: both;
+	background-color: #A36FCB;
+	margin-bottom: 20px;
+}
+
+.foot{
+	text-align: center;
+	font-family: 'Ranchers', cursive;
+
+}
+
+.aboutus{
+font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 24px;
+	text-align: left;
+	margin: 15px ;
+}
+h1{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 34px;
+	text-align: center;
+	font-weight: bold;
+	margin: 15px ;
+}
+
+h2{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 24px;
+	text-align: left;
+	font-weight: bold;
+	margin: 15px ;
+}
+
+h3{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 26px;
+	text-align: left;
+	margin: 5px;
+	margin-left: 30px;
+}
+
+.obvious{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 24px;
+	text-align: left;
+	margin: 5px;
+	margin-left: 15px;
+	color: #5A2484;
+}
+
+
+.menu1{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 20px;
+	text-align: left;
+	margin: 5px;
+	margin-left: 50px;
+	list-style-type: square;
+}
+
+.menu2{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 20px;
+	text-align: left;
+	margin: 5px;
+	margin-left: 70px;
+	list-style-type: none;
 }
